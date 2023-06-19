@@ -10,8 +10,8 @@ a{
 
 .containerr{
     padding: 10px 40px;
+    background-color: #f6f7f8;
     header{
-        background-color: #f6f7f8;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -61,7 +61,7 @@ a{
             width: 97%;
             height: 200px;
             outline: none;
-            border: none;
+            border: none !important;
             &::placeholder{
                 font-size: 50px;
                 color: #a7a6a6;
